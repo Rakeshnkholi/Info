@@ -1,5 +1,5 @@
-2025-02-25 22:37:53 [main] INFO  com.sun.base.TestBase - Setting up the environment
-2025-02-25 22:37:58 [main] INFO  com.sun.base.TestBase - Setting up the environment
-2025-02-25 22:38:01 [main] INFO  com.sun.base.TestBase - Starting Login Test
-2025-02-25 22:38:02 [main] INFO  com.sun.base.TestBase - Login is completed
-2025-02-25 22:38:02 [main] INFO  com.sun.base.TestBase - Validating the homepage url
+2025-02-25 23:10:57 [main] INFO  com.sun.base.TestBase - Setting up the environment
+2025-02-25 23:11:03 [main] INFO  com.sun.base.TestBase - Setting up the environment
+2025-02-25 23:11:06 [main] INFO  com.sun.base.TestBase - Starting Login Test
+2025-02-25 23:11:06 [main] INFO  com.sun.base.TestBase - Login is completed
+2025-02-25 23:11:06 [main] INFO  com.sun.base.TestBase - Validating the homepage url
