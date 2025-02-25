@@ -1,0 +1,1 @@
+{"uuid":"ba328f51-a6a2-4404-aaa4-5d3e2a70e060","name":"com.sun.tests.LoginTest","children":["c61513a1-c173-4de2-bfea-0a2d646c679d"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740475612992,"stop":1740475619143}],"afters":[],"links":[],"start":1740475612959,"stop":1740475629421}
