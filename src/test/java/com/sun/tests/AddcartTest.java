@@ -5,10 +5,11 @@ import org.testng.annotations.Test;
 
 import com.sun.base.*;
 import com.sun.pages.*;
+import com.sunmob.testdata.Testingdata;
 public class AddcartTest extends TestBase
 {
-	@Test
-	public void clickonAddcart()
+	@Test(dataProvider="checkoutData", dataProviderClass=Testingdata.class)
+	public void clickonAddcart(String fname,String lname,String code)
 	{
 		//click on addcart and validate the cart url
 		 loginapplication("standard_user","secret_sauce");
@@ -25,9 +26,10 @@ public class AddcartTest extends TestBase
 		 cart.clickonaddCart();
 		 cart.checkout();
 		 
-		 cart.checkoutdetails("Rakesh","Nayak","560067");
+		 cart.checkoutdetails(fname,lname, code);
 		 cart.orderconfirm();
 		 cart.confirmationmessage();
+		 driver.navigate().to("https://www.saucedemo.com/");
 		 
 		
 		

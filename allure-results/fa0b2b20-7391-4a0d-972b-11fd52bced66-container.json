@@ -1,0 +1,1 @@
+{"uuid":"fa0b2b20-7391-4a0d-972b-11fd52bced66","name":"com.sun.base.TestBase.setup","children":["1c1daef6-f8c4-410a-8147-4a32b342558f"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740585646925,"stop":1740585650389}],"afters":[],"start":1740585646924,"stop":1740585650390}

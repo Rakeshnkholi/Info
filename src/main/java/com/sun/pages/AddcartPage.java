@@ -55,10 +55,10 @@ public class AddcartPage
 		SeleniumUtils.enterclick(checkout);
 	}
 	
-	public void checkoutdetails(String firstname, String lastname, String code)
+	public void checkoutdetails(String fname, String lname, String code)
 	{
-		SeleniumUtils.entertext(Firstname, firstname);
-		SeleniumUtils.entertext(Lastname, lastname);
+		SeleniumUtils.entertext(Firstname, fname);
+		SeleniumUtils.entertext(Lastname, lname);
 		SeleniumUtils.entertext(zipcode, code);
 		SeleniumUtils.enterclick(checkoutconfirm);
 		
