@@ -25,6 +25,8 @@ public class LoginPage {
     @FindBy(xpath = "//input[@id='login-button']")private WebElement submit;
 
     @FindBy(xpath="//div[.='Test.allTheThings() T-Shirt (Red)']") private WebElement FindItem;
+    
+    
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

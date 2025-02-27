@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -64,6 +65,14 @@ public class SeleniumUtils
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
+	//Wait for url validate
+		public static void waitforurl(WebDriver driver, int timeout,String url )
+		{
+			WebDriverWait wait=new WebDriverWait(driver,timeout);
+			wait.until(ExpectedConditions.urlContains(url));
+		}
+		
+		
 	//Wait for element to clickable
 	public static void waitforElementclickable(WebElement element, int timeout)
 	{
