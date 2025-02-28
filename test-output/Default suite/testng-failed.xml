@@ -5,7 +5,7 @@
     <classes>
       <class name="com.sun.tests.LoginTest">
         <methods>
-          <include name="Testlogin" invocation-numbers="1"/>
+          <include name="clickopenmenu"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

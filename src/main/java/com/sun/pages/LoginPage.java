@@ -26,6 +26,9 @@ public class LoginPage {
 
     @FindBy(xpath="//div[.='Test.allTheThings() T-Shirt (Red)']") private WebElement FindItem;
     
+    @FindBy(css="#react-burger-menu-btn") private WebElement openmenu;
+    
+    
     
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -44,6 +47,7 @@ public class LoginPage {
         SeleniumUtils.entertext(username,Loginname);
         SeleniumUtils.entertext(password, pwd);
         SeleniumUtils.enterclick(submit);
+        SeleniumUtils.enterclick(openmenu);
     }
     
     public String validdateTitle()

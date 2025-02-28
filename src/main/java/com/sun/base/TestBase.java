@@ -31,8 +31,9 @@ import io.qameta.allure.Step;
 		public void setup()
 		{
 			log.info("Setting up the environment");
-			System.setProperty("webdriver.edge.driver", "./drivers/msedgedriver.exe");
-	        driver=new EdgeDriver();
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+	        //driver=new EdgeDriver();
+			driver=new ChromeDriver();
 			SeleniumUtils.setDriver(driver);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -46,7 +47,7 @@ import io.qameta.allure.Step;
 		@AfterClass
 		public void tearDown() {
 		    if (driver != null) {
-		        driver.quit();
+		        //driver.quit();
 		    }
 		}
 		

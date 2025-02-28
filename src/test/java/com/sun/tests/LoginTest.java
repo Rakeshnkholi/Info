@@ -69,6 +69,12 @@ public class LoginTest extends TestBase
          
          loginfo("Login Test Success");
     }
+    
+    @Test
+    public void clickopenmenu()
+    {
+    	loginapplication("standard_user","secret_sauce");
+    }
 	
 	
 
